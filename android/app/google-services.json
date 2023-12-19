@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "559400648428",
+    "project_id": "task-management-apps-becca",
+    "storage_bucket": "task-management-apps-becca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559400648428:android:92669c5abddada366cafc9",
+        "android_client_info": {
+          "package_name": "com.example.task_management_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiLBewDq3dGVlabkkk9nQiessl3t8QbTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
