@@ -18,7 +18,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _drawerKey,
-      drawer: const SideBar(),
+      drawer: const SizedBox(width: 100, child: SideBar()),
       backgroundColor: AppColors.primaryBg,
       body: Row(
         children: [
@@ -50,8 +50,8 @@ class HomeView extends GetView<HomeController> {
                             const SizedBox(
                               width: 8,
                             ),
-                            Expanded(
-                              child: const Column(
+                            const Expanded(
+                              child: Column(
                                 //mainAxisAlignment: MainAxisAlignment.start,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
